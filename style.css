@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body,html{
+	background: url(./image/bg.png) no-repeat 100% 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	width: 100%;	
+}
+.box{
+	
+}
+/* X image*/
+.close{
+	display: inline-block;
+	height:.34rem;
+	position: absolute;
+	right:.14rem;
+	top:.14rem;
+	width:.34rem;	
+}
+.clear:after{
+	content:'';
+	clear: both;
+	display: block;
+	height:0;
+}
+
+/*logo*/
+.header{
+	height:.95rem;
+	margin:0 auto;
+	padding-top:1.6rem;
+	width:3.1rem;
+}
+.header img{
+	float:left;
+	height:.91rem;
+	width:.89rem;
+}
+.header span{
+	float: left;
+	font-size:.48rem;
+}
+
+
+/*logo动画*/
+#logo{
+	transition:1s
+}
+#logo:hover{
+	transform:rotate(360deg);
+}
+
+
+.main{
+	margin:0 auto;
+	width:5.3rem;
+}
+
+/*input */
+.main .inps{
+	border-bottom:1px solid #ccc;
+	height:1rem;
+}
+
+.main .noborder{
+	border:none;
+}
+
+.main .inps span{
+	float: right;
+	font-size: .2rem;
+	margin:.15rem .15rem 0 0;
+}
+
+/*login button*/
+
+.main .inps .btns{
+	border:none;
+	border-radius: 20px;
+	background: #595959;
+	color:white;
+	display: inline-block;
+	font-size:.3rem;
+	height:.8rem;
+	line-height: .8rem;
+	outline: none;
+	text-align: center;
+	width:5.3rem;
+}
+.main .idcards{
+	margin-bottom:1rem;
+}
+.main .idcards p{
+	color:#666;
+	font-size: .3rem;
+	margin-top:.54rem;
+	text-align: center;
+	
+}
+.nobors{
+	border:none;
+	background: none;
+	float: left;
+	margin-top:.5rem;
+	outline: none;
+}
+
+/*OR*/
+.loginChoice{
+	display: flex;
+	width: 100%;
+	margin: .28rem auto .24rem auto;
+}
+.loginChoice .line{
+	border-bottom: 1px solid #ccc;
+	flex: 1;
+	position: relative;
+	top: -.2rem;
+	
+}
+.loginChoice .text{
+	color:#222;
+	font-size: .3rem;
+	padding: 0 .12rem;
+}
+.mt98{
+	margin-top:.90rem;
+}
+.mt40{
+	margin-top:.4rem;
+}
+
+/*else login button*/
+.main .logo{
+	border:1px solid #ccc;
+	border-radius: 20px;
+	color:white;
+	font-size: .3rem;
+	height:.9rem;
+	line-height: .9rem;
+	text-align: center;
+}
+.main .logo a{
+	color:#999;
+	text-decoration: none;
+	position: relative;
+}
+.main .logo .logobtn{
+	background:url(./image/wq.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height:.45rem;
+    width:.52rem;
+    position: absolute;
+}
+.main .logo .wx{
+    background-position:0px 0px;
+    left:-1rem;
+    top:0rem;
+}
+
+.main .logo .qq{
+    background-position:0px -.5rem;
+    left:-1rem;
+    top:0rem;
+}
+
+.main .logo .bt{
+	border:1px solid #ccc;
+	border-radius: 20px;
+	background:url(./image/wq.png);
+    background-repeat:no-repeat;
+    color:white;
+    display: inline-block;
+	font-size:.3rem;
+	height:.9rem;
+	line-height: .8rem;
+	text-align: center;
+	width:5.3rem;
+}
+.main .logo .wxbtn{
+	background-position:20px 3px;
+}
+.main .logo .qqbtn{
+	background-position:20px -50px;
+}
+.noborder{
+	border:none;
+}
